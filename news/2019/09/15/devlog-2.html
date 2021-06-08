@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>DEV LOG #2 Prototyping Prototypes</title>
+  <meta name="description" content="One of the interesting concepts I read about was the use of “prototypes”. I’m not talking about prototypes in terms of unfinished game projects, although coincidentally that’s what I was doing to t..." />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@builderment" />
+    <meta name="twitter:title" content="DEV LOG #2 Prototyping Prototypes" />
+    <meta name="twitter:image" content="https://builderment.com/apple-touch-icon.png" />
+    
+    <meta name="twitter:description"  content="One of the interesting concepts I read about was the use of “prototypes”. I’m not talking about prototypes in terms of unfinished game projects, although coincidentally that’s what I was doing to t..." />
+    
+  
+  
+  <meta property="og:site_name" content="Builderment" />
+  <meta property="og:title" content="DEV LOG #2 Prototyping Prototypes"/>
+  
+  <meta property="og:description" content="One of the interesting concepts I read about was the use of “prototypes”. I’m not talking about prototypes in terms of unfinished game projects, although coincidentally that’s what I was doing to t..." />
+  
+  <meta property="og:image" content="https://builderment.comhttps://i.imgur.com/6KgiE6A.jpg" />
+  <meta property="og:url" content="https://builderment.com/news/2019/09/15/devlog-2.html" >
+  <meta property="og:type" content="blog" />
+  <meta property="article:published_time" content="2019-09-15T04:00:00-04:00">
+
+  <meta name="apple-itunes-app" content="app-id=1558592038">
+
+  <link rel="canonical" href="https://builderment.com/news/2019/09/15/devlog-2.html"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+
+<body itemscope itemtype="http://schema.org/Article">
+  <!-- header start -->
+
+
+  <a href="https://builderment.com" class="logo-readium"><span class="logo" style="background-image: url(/apple-touch-icon.png)"></span></a>
+
+<!-- header end -->
+
+  <main class="content" role="main">
+    <article class="post">
+      
+      <div class="article-image">
+        <div class="post-image-image"
+          style="background-image: url(https://i.imgur.com/6KgiE6A.jpg)">
+          Article Image
+        </div>
+        <div class="post-image-image2"
+          style="background-image: url()">
+          Article Image
+        </div>
+        <div class="post-meta">
+          <h1 class="post-title">DEV LOG #2 Prototyping Prototypes</h1>
+          <div class="cf post-meta-text">
+            <div class="author-image" style="background-image: url(/apple-touch-icon.png)">
+              Blog Logo</div>
+            <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Builderment
+            </h4>
+            on
+            <time datetime="2019-09-15 04:00">15 Sep 2019</time>
+            <!-- tagged <span class="post-tag-devlog"><a href="/tag/devlog">devlog</a></span> -->
+          </div>
+          <div style="text-align:center">
+            <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <section class="post-content">
+        <div class="post-reading">
+          <span class="post-reading-time"></span> read
+        </div>
+        <a name="topofpage"></a>
+        <p>One of the interesting concepts I read about was the use of “prototypes”. I’m not talking about prototypes in terms of unfinished game projects, although coincidentally that’s what I was doing to test this concept. The “prototype” idea is related to entities or objects in a game, let’s say you have a building that turns stone into brick and you assign a number of properties.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="kt">Factory</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">title</span> <span class="o">=</span> <span class="s">"Stone Factory"</span>
+    <span class="k">var</span> <span class="nv">craftingTime</span> <span class="o">=</span> <span class="mf">3.0</span>
+    <span class="k">var</span> <span class="nv">inputItems</span> <span class="o">=</span> <span class="p">[</span><span class="s">"stone"</span><span class="p">:</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="k">var</span> <span class="nv">outputItems</span> <span class="o">=</span> <span class="p">[</span><span class="s">"brick"</span><span class="p">:</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="k">var</span> <span class="nv">currentProgress</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="k">var</span> <span class="nv">isCrafting</span> <span class="o">=</span> <span class="kc">false</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>You’ll probably notice some properties won’t ever change, or would be strange to duplicate for every StoneFactory in the game. That’s where a prototype comes into play, by moving those properties out into another class that can be referenced by all stone factories your game will use less memory. At 1 object this doesn’t have a big impact but maybe 1000 or 100,000 objects it certainly will. Here’s an example:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="kt">FactoryPrototype</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span> <span class="c1">// I use this in the next example</span>
+    <span class="k">var</span> <span class="nv">title</span> <span class="o">=</span> <span class="s">"Stone Factory"</span>
+    <span class="k">var</span> <span class="nv">craftingTime</span> <span class="o">=</span> <span class="mf">3.0</span>
+    <span class="k">var</span> <span class="nv">inputItems</span> <span class="o">=</span> <span class="p">[</span><span class="s">"stone"</span><span class="p">:</span> <span class="mi">1</span><span class="p">]</span>
+    <span class="k">var</span> <span class="nv">outputItems</span> <span class="o">=</span> <span class="p">[</span><span class="s">"brick"</span><span class="p">:</span> <span class="mi">1</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="kt">Factory</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">prototype</span><span class="p">:</span> <span class="kt">FactoryPrototype</span>
+    <span class="k">var</span> <span class="nv">currentProgress</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="k">var</span> <span class="nv">isCrafting</span> <span class="o">=</span> <span class="kc">false</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Another benefit of this pattern is that we can remove all the prototype data from save files and dynamically load it at runtime when needed. Since it’s not in the saved game we can also tweak the values to balance the game between updates and not break the save file or need complex migration code. Let’s have a look at a more complete implementation that would do that.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Before the game loads all prototypes are registered with unique IDs.</span>
+<span class="kd">class</span> <span class="kt">PrototypeRegistry</span> <span class="p">{</span>
+    <span class="kd">private</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">prototypes</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">FactoryPrototype</span><span class="p">]</span> <span class="o">=</span> <span class="p">[:]</span>
+
+    <span class="kd">static</span> <span class="kd">func</span> <span class="nf">register</span><span class="p">(</span><span class="n">_</span> <span class="nv">prototype</span><span class="p">:</span> <span class="kt">FactoryPrototype</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">prototypes</span><span class="p">[</span><span class="n">prototype</span><span class="o">.</span><span class="n">id</span><span class="p">]</span> <span class="o">=</span> <span class="n">prototype</span>
+    <span class="p">}</span>
+
+    <span class="kd">static</span> <span class="kd">func</span> <span class="nf">load</span><span class="p">(</span><span class="n">_</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">FactoryPrototype</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">prototypes</span><span class="p">[</span><span class="n">id</span><span class="p">]</span><span class="o">!</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="kd">struct</span> <span class="kt">FactoryPrototype</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span>
+    <span class="k">var</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span>
+    <span class="k">var</span> <span class="nv">craftingTime</span><span class="p">:</span> <span class="kt">TimeInterval</span>
+    <span class="k">var</span> <span class="nv">inputItems</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Int</span><span class="p">]</span>
+    <span class="k">var</span> <span class="nv">outputItems</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Int</span><span class="p">]</span>
+<span class="p">}</span>
+
+<span class="kd">class</span> <span class="kt">Factory</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">prototype</span><span class="p">:</span> <span class="kt">FactoryPrototype</span>
+    <span class="c1">// Only need to serialize these values into a save file</span>
+    <span class="k">var</span> <span class="nv">prototypeId</span><span class="p">:</span> <span class="kt">String</span>
+    <span class="k">var</span> <span class="nv">currentProgress</span> <span class="o">=</span> <span class="mf">0.0</span>
+    <span class="k">var</span> <span class="nv">isCrafting</span> <span class="o">=</span> <span class="kc">false</span>
+
+    <span class="nf">init</span><span class="p">(</span><span class="nv">prototype</span><span class="p">:</span> <span class="kt">FactoryPrototype</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">prototypeId</span> <span class="o">=</span> <span class="n">prototype</span><span class="o">.</span><span class="n">id</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">prototype</span> <span class="o">=</span> <span class="n">prototype</span>
+    <span class="p">}</span>
+
+    <span class="nf">init</span><span class="p">(</span><span class="nv">prototypeId</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">prototypeId</span> <span class="o">=</span> <span class="n">prototypeId</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">prototype</span> <span class="o">=</span> <span class="kt">PrototypeRegistry</span><span class="o">.</span><span class="nf">load</span><span class="p">(</span><span class="n">prototypeId</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Now it’s trivial to add more types of factories and change them without touching a line of gameplay code. All the prototypes can live in a text file if you want to write a parser for that, I’m lazy and coding them into a set of data files that initialize and register them when the app launches.
+I also have a few more properties for the 3D model and scale factory so trying out different models it’s super easy.</p>
+
+<p>Hopefully you found this helpful and enjoy the small glimpse into development of Builderment. I had a fun time implementing this and learning about structuring the code this way for more optimal performance.</p>
+
+<h2 id="follow-and-subscribe-">Follow and Subscribe 👍</h2>
+<p>This journey is just beginning. If you like what you read I’ll be posting more of it, hopefully weekly. Currently on twitter and instagram sharing images and videos from development. Reach out via email or come join discord!</p>
+
+<p>Twitter @<a href="https://twitter.com/builderment">builderment</a><br />
+Instagram @<a href="https://instagram.com/builderment">builderment</a><br />
+Discord <a href="https://discord.gg/VkH4Nq3">https://discord.gg/VkH4Nq3</a><br />
+Email contact ‘at’ builderment ‘dot’ com</p>
+
+      </section>
+      <footer class="post-footer">
+        <section class="share">
+          
+          
+          <a class="icon-twitter"
+            href="http://twitter.com/share?text=DEV+LOG+%232+Prototyping+Prototypes&amp;url=https://builderment.com/news/2019/09/15/devlog-2.html"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+            <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+          </a>
+          
+          
+        </section>
+      </footer>
+      <div class="bottom-teaser cf">
+        <div class="isLeft">
+          <h5 class="index-headline featured"><span>Written by</span></h5>
+          <section class="author">
+            <div class="author-image" style="background-image: url(/apple-touch-icon.png)">Blog
+              Logo</div>
+            <h4>Builderment</h4>
+            <p class="bio"></p>
+            <hr>
+            <p class="published">Published <time
+                datetime="2019-09-15 04:00">15 Sep 2019</time></p>
+          </section>
+        </div>
+        <!-- \{\{\/post\}\} -->
+        <div class="isRight">
+          <h5 class="index-headline featured"><span>published with <a href="http://jekyllrb.com">Jekyll</a></span></h5>
+          <footer class="site-footer">
+            <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i
+                  class="fa fa-rss"></i> Subscribe to RSS feed</span></a>
+          </footer>
+        </div>
+      </div>
+    </article>
+  </main>
+  <!-- <div class="bottom-closer">
+    <div class="background-closer-image" 
+      style="background-image: url(https://i.imgur.com/D6skL6Z.mp4)" >
+      Image
+    </div>
+    <div class="inner">
+      <h1 class="blog-title">Builderment</h1>
+      <h2 class="blog-description">A game about building and automation
+</h2>
+      <a href=/ class="btn">Back to Overview</a>
+    </div>
+  </div> -->
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src=" /assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src=" /assets/js/index.js"></script>
+<script type="text/javascript" src=" /assets/js/readingTime.min.js"></script>
+<script>
+  (function ($) {
+    "use strict";
+    $(document).ready(function () {
+
+      var $window = $(window),
+        $image = $('.post-image-image, .teaserimage-image');
+
+      $window.on('scroll', function () {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, ' + top / 3 + 'px, 0px)')
+          .css('opacity', 1 - Math.max(top / 700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+          && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+    });
+  }(jQuery));
+</script>
+</body>
+
+</html>

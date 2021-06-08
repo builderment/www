@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>DEV LOG #6 A Programmers Guide to Asset Automation</title>
+  <meta name="description" content="Builderment is a game about building and automation, so it’s only natural that the development process is also automated. As a programmer my philosophy is to do as little work as possible. But that..." />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@builderment" />
+    <meta name="twitter:title" content="DEV LOG #6 A Programmers Guide to Asset Automation" />
+    <meta name="twitter:image" content="https://builderment.com/apple-touch-icon.png" />
+    
+    <meta name="twitter:description"  content="Builderment is a game about building and automation, so it’s only natural that the development process is also automated. As a programmer my philosophy is to do as little work as possible. But that..." />
+    
+  
+  
+  <meta property="og:site_name" content="Builderment" />
+  <meta property="og:title" content="DEV LOG #6 A Programmers Guide to Asset Automation"/>
+  
+  <meta property="og:description" content="Builderment is a game about building and automation, so it’s only natural that the development process is also automated. As a programmer my philosophy is to do as little work as possible. But that..." />
+  
+  <meta property="og:image" content="https://builderment.com/apple-touch-icon.png" />
+  <meta property="og:url" content="https://builderment.com/news/2019/11/24/blender-workflow.html" >
+  <meta property="og:type" content="blog" />
+  <meta property="article:published_time" content="2019-11-24T03:00:00-05:00">
+
+  <meta name="apple-itunes-app" content="app-id=1558592038">
+
+  <link rel="canonical" href="https://builderment.com/news/2019/11/24/blender-workflow.html"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+
+<body itemscope itemtype="http://schema.org/Article">
+  <!-- header start -->
+
+
+  <a href="https://builderment.com" class="logo-readium"><span class="logo" style="background-image: url(/apple-touch-icon.png)"></span></a>
+
+<!-- header end -->
+
+  <main class="content" role="main">
+    <article class="post">
+      
+      <div class="noarticleimage">
+        <div class="post-meta">
+          <h1 class="post-title">DEV LOG #6 A Programmers Guide to Asset Automation</h1>
+          <div class="cf post-meta-text">
+            <div class="author-image" style="background-image: url(/apple-touch-icon.png)">
+              Blog Logo</div>
+            <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Builderment
+            </h4>
+            on
+            <time datetime="2019-11-24T03:00:00-05:00">24 Nov 2019</time>
+            <!-- tagged <span class="post-tag-swift"><a href="/tag/swift">swift</a></span><span class="post-tag-blender">,
+              <a href="/tag/blender">blender</a></span><span class="post-tag-devops">,
+              <a href="/tag/devops">devops</a></span> -->
+          </div>
+        </div>
+      </div>
+      <br>
+      
+      <section class="post-content">
+        <div class="post-reading">
+          <span class="post-reading-time"></span> read
+        </div>
+        <a name="topofpage"></a>
+        <p>Builderment is a game about building and automation, so it’s only natural that the development process is also automated. As a programmer my philosophy is to do as little work as possible. But that doesn’t mean to cut corners and deliver a worse product, instead it means use code to do much more work than I ever could manually.</p>
+
+<p>My approach to creating game assets is similar; repeat myself as little as possible. Some Blender tools like the mirror &amp; array modifiers help immensely when creating models. But I’m no where close to good enough to writing a guide on how to model in Blender. I do however have two small but incredibly useful tools that make development easier. First is the workflow I have for exporting all game assets to Xcode, and second is linking materials in Blender to easily change the visuals of all assets.</p>
+
+<p>First let us export all the assets.</p>
+<div style="text-align:center">
+<video style="width: 100%; height: 440px;" muted="" loop="" autoplay="" playsinline="" title="Batch convert Blender to SceneKit assets">
+    <source src="https://i.imgur.com/l7DuYy9.mp4" type="video/mp4" />
+    Your browser does not support playing this Video
+</video>
+</div>
+
+<h2 id="scripts-to-export-and-convert-game-assets">Scripts to export and convert game assets</h2>
+
+<p>Once I had more than a couple models in the game I wanted a way to easily re-export and convert them to usable SceneKit files. The process to do that was anything but straight forward or well documented 🙄. Hopefully this helps someone in the future who is in need of a similar setup.</p>
+
+<p>The first step was to find a way to get blender to export objects from the command line. Luckily Blender has a very comprehensive <a href="https://docs.blender.org/api/current/info_quickstart.html">Python API</a>. With that I was able to create this simple Python script that can export a <code class="language-plaintext highlighter-rouge">.dae</code> file by running the command<br />
+<code class="language-plaintext highlighter-rouge">blender $FILE_TO_EXPORT -b -P scripts/export-dae.py</code>.</p>
+
+<h4 id="file-scriptsexport-daepy"><code class="language-plaintext highlighter-rouge">file: scripts/export-dae.py</code></h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env python3
+</span>
+<span class="kn">import</span> <span class="nn">bpy</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="c1"># The export command is configured to only export selected objects.
+# Select all objects that are not hidden from the renderer.
+</span><span class="k">for</span> <span class="n">obj</span> <span class="ow">in</span> <span class="n">bpy</span><span class="p">.</span><span class="n">context</span><span class="p">.</span><span class="n">visible_objects</span><span class="p">:</span>
+    <span class="n">obj</span><span class="p">.</span><span class="n">select_set</span><span class="p">(</span><span class="ow">not</span> <span class="n">obj</span><span class="p">.</span><span class="n">hide_render</span><span class="p">)</span>
+
+<span class="c1"># Create output file from the asset's file name
+# ex. assets/models/copper_ore.blend =&gt; assets/exports/copper_ore.dae
+</span><span class="n">output_path</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">basename</span><span class="p">(</span><span class="n">bpy</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="n">filepath</span><span class="p">)</span>
+<span class="n">output_path</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">output_path</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">output_path</span> <span class="o">=</span> <span class="s">"/assets/exports/{}.dae"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">output_path</span><span class="p">)</span>
+
+<span class="c1"># Export as collada (.dae)
+</span><span class="n">bpy</span><span class="p">.</span><span class="n">ops</span><span class="p">.</span><span class="n">wm</span><span class="p">.</span><span class="n">collada_export</span><span class="p">(</span><span class="n">filepath</span><span class="o">=</span><span class="n">output_path</span><span class="p">,</span>
+                          <span class="n">check_existing</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span>
+                          <span class="n">filter_collada</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+                          <span class="n">apply_modifiers</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+                          <span class="n">selected</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+                          <span class="n">use_texture_copies</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+</code></pre></div></div>
+<p>As I learn more about scripting in Blender I want to add more commands here to create a camera and lights to render an image for the icons/thumbnails in the game.</p>
+
+<p>The second and final script calls that first script on each <code class="language-plaintext highlighter-rouge">.blend</code> file in my models folder and saves them to an exports folder. Then it converts each .dae file to a <code class="language-plaintext highlighter-rouge">.scn</code> file using the <code class="language-plaintext highlighter-rouge">scntool</code> command built into Xcode. Lastly it copies the textures into the games directory incase anything changed (<em>note to self: I should first remove the existing textures from that folder</em>).</p>
+<h4 id="file-scriptsconvert-game-assetspy"><code class="language-plaintext highlighter-rouge">file: scripts/convert-game-assets.py</code></h4>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#!/usr/bin/env python3
+</span>
+<span class="kn">import</span> <span class="nn">glob</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">subprocess</span>
+
+<span class="c1"># glob all .blend files and export them as .dae objects
+</span><span class="n">blender_files</span> <span class="o">=</span> <span class="n">glob</span><span class="p">.</span><span class="n">glob</span><span class="p">(</span><span class="s">"assets/models/*.blend"</span><span class="p">)</span>
+<span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">blender_files</span><span class="p">:</span>
+    <span class="n">blender_export_cmd</span> <span class="o">=</span> <span class="s">"blender {} --factory-startup --background --python scripts/export-dae.py"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span>
+    <span class="n">subprocess</span><span class="p">.</span><span class="n">run</span><span class="p">(</span><span class="n">blender_export_cmd</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="c1"># Convert exported collada models to SceneKit .scn files
+</span><span class="n">convertable_files</span> <span class="o">=</span> <span class="n">glob</span><span class="p">.</span><span class="n">glob</span><span class="p">(</span><span class="s">"assets/exports/*.dae"</span><span class="p">)</span>
+<span class="k">for</span> <span class="nb">file</span> <span class="ow">in</span> <span class="n">convertable_files</span><span class="p">:</span>
+    <span class="n">asset_name</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">basename</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span>
+    <span class="n">asset_name</span> <span class="o">=</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">asset_name</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="c1"># scntool options list https://gist.github.com/matux/4a30c4b4b29d636fe6847b6a3234bc4f
+</span>    <span class="n">convert_cmd</span> <span class="o">=</span> <span class="p">[</span><span class="s">"xcrun scntool"</span><span class="p">,</span>
+                   <span class="s">"--convert {}"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="nb">file</span><span class="p">),</span>
+                   <span class="s">"--format scn"</span><span class="p">,</span>
+                   <span class="s">"--force-y-up"</span><span class="p">,</span>
+                   <span class="s">"--output ios/GameAssets.scnassets/{}.scn"</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">asset_name</span><span class="p">)]</span>
+    <span class="n">rt</span> <span class="o">=</span> <span class="n">subprocess</span><span class="p">.</span><span class="n">run</span><span class="p">(</span><span class="s">' '</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="n">convert_cmd</span><span class="p">),</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">rt</span><span class="p">.</span><span class="n">returncode</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">os</span><span class="p">.</span><span class="n">remove</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span> <span class="c1"># cleanup exported .dae file
+</span>
+<span class="c1"># Copy textures to scenekit assets texture directory
+</span><span class="n">copy_textures_cmd</span> <span class="o">=</span> <span class="s">"cp -R assets/textures/ ios/GameAssets.scnassets/textures/"</span>
+<span class="n">subprocess</span><span class="p">.</span><span class="n">run</span><span class="p">(</span><span class="n">copy_textures_cmd</span><span class="p">,</span> <span class="n">shell</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+<p>While these scripts are specific to <code class="language-plaintext highlighter-rouge">.dae</code> and <code class="language-plaintext highlighter-rouge">.scn</code> files I hope the concept is abstract enough that you could use in your own workflow.</p>
+
+<h2 id="linking-materials">Linking Materials</h2>
+<p>Working with a low poly style means I have materials/textures that can to be repeated in many of the assets. Truth be told it took me a while to find this solution but now that I did it’s incredibly useful. I created a <strong>Library.blend</strong> file that contains all the reusable content such as materials or meshes that get linked into the individual asset files. Combined with the previous scripts it’s easy to change the material in one place and have all the game assets updated in seconds.</p>
+
+<blockquote>
+  <p>Reloading is useful if you changed something in the library blend-file and want to see those changes in your current blend-file without having to re-open it.</p>
+
+  <p>– <a href="https://docs.blender.org/manual/en/dev/files/linked_libraries/introduction.html#append-and-link">Blender</a> 🙌</p>
+</blockquote>
+
+<p>It looks a little something like this:</p>
+<div style="text-align:center;"><a href="https://i.imgur.com/ynRhYjw.jpg" target="_blank" alt="full size image"><img style="width: 480px;" src="https://i.imgur.com/eXWLg1u.jpg" alt="Blender material linking workflow" /></a></div>
+
+<p>There are a lot of options for game dev in iOS including Unity, UE4, or Godot. If you’re interested in why Builderment is built in Swift and SceneKit have a quick read through my <a href="/news/2019/09/10/devlog-1.html">first dev log</a>.</p>
+
+<h2 id="follow-and-subscribe-">Follow and Subscribe 👍</h2>
+<p>This journey is just beginning. If you like what you read I’ll be posting more of it, hopefully weekly. Currently on twitter and instagram sharing images and videos from development. Reach out via email or come join discord!</p>
+
+<p>Twitter @<a href="https://twitter.com/builderment">builderment</a><br />
+Instagram @<a href="https://instagram.com/builderment">builderment</a><br />
+Discord <a href="https://discord.gg/VkH4Nq3">https://discord.gg/VkH4Nq3</a><br />
+Email contact ‘at’ builderment ‘dot’ com</p>
+
+
+      </section>
+      <footer class="post-footer">
+        <section class="share">
+          
+          
+          <a class="icon-twitter"
+            href="http://twitter.com/share?text=DEV+LOG+%236+A+Programmers+Guide+to+Asset+Automation&amp;url=https://builderment.com/news/2019/11/24/blender-workflow.html"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+            <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+          </a>
+          
+          
+        </section>
+      </footer>
+      <div class="bottom-teaser cf">
+        <div class="isLeft">
+          <h5 class="index-headline featured"><span>Written by</span></h5>
+          <section class="author">
+            <div class="author-image" style="background-image: url(/apple-touch-icon.png)">Blog
+              Logo</div>
+            <h4>Builderment</h4>
+            <p class="bio"></p>
+            <hr>
+            <p class="published">Published <time
+                datetime="2019-11-24 03:00">24 Nov 2019</time></p>
+          </section>
+        </div>
+        <!-- \{\{\/post\}\} -->
+        <div class="isRight">
+          <h5 class="index-headline featured"><span>published with <a href="http://jekyllrb.com">Jekyll</a></span></h5>
+          <footer class="site-footer">
+            <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i
+                  class="fa fa-rss"></i> Subscribe to RSS feed</span></a>
+          </footer>
+        </div>
+      </div>
+    </article>
+  </main>
+  <!-- <div class="bottom-closer">
+    <div class="background-closer-image" 
+      style="background-image: url(https://i.imgur.com/D6skL6Z.mp4)" >
+      Image
+    </div>
+    <div class="inner">
+      <h1 class="blog-title">Builderment</h1>
+      <h2 class="blog-description">A game about building and automation
+</h2>
+      <a href=/ class="btn">Back to Overview</a>
+    </div>
+  </div> -->
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src=" /assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src=" /assets/js/index.js"></script>
+<script type="text/javascript" src=" /assets/js/readingTime.min.js"></script>
+<script>
+  (function ($) {
+    "use strict";
+    $(document).ready(function () {
+
+      var $window = $(window),
+        $image = $('.post-image-image, .teaserimage-image');
+
+      $window.on('scroll', function () {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, ' + top / 3 + 'px, 0px)')
+          .css('opacity', 1 - Math.max(top / 700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+          && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+    });
+  }(jQuery));
+</script>
+</body>
+
+</html>

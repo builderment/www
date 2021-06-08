@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>DEV LOG #1 Ready, Set, GO!</title>
+  <meta name="description" content="Starting a new game is exciting, the ideas are flowing and the possibilities are endless. You have a great idea and ready to get to work. Soon you may find yourself facing a lot of questions that n..." />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@builderment" />
+    <meta name="twitter:title" content="DEV LOG #1 Ready, Set, GO!" />
+    <meta name="twitter:image" content="https://builderment.com/apple-touch-icon.png" />
+    
+    <meta name="twitter:description"  content="Starting a new game is exciting, the ideas are flowing and the possibilities are endless. You have a great idea and ready to get to work. Soon you may find yourself facing a lot of questions that n..." />
+    
+  
+  
+  <meta property="og:site_name" content="Builderment" />
+  <meta property="og:title" content="DEV LOG #1 Ready, Set, GO!"/>
+  
+  <meta property="og:description" content="Starting a new game is exciting, the ideas are flowing and the possibilities are endless. You have a great idea and ready to get to work. Soon you may find yourself facing a lot of questions that n..." />
+  
+  <meta property="og:image" content="https://builderment.comhttps://i.imgur.com/SXcRUBU.jpg" />
+  <meta property="og:url" content="https://builderment.com/news/2019/09/10/devlog-1.html" >
+  <meta property="og:type" content="blog" />
+  <meta property="article:published_time" content="2019-09-10T08:00:00-04:00">
+
+  <meta name="apple-itunes-app" content="app-id=1558592038">
+
+  <link rel="canonical" href="https://builderment.com/news/2019/09/10/devlog-1.html"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+
+<body itemscope itemtype="http://schema.org/Article">
+  <!-- header start -->
+
+
+  <a href="https://builderment.com" class="logo-readium"><span class="logo" style="background-image: url(/apple-touch-icon.png)"></span></a>
+
+<!-- header end -->
+
+  <main class="content" role="main">
+    <article class="post">
+      
+      <div class="article-image">
+        <div class="post-image-image"
+          style="background-image: url(https://i.imgur.com/SXcRUBU.jpg)">
+          Article Image
+        </div>
+        <div class="post-image-image2"
+          style="background-image: url()">
+          Article Image
+        </div>
+        <div class="post-meta">
+          <h1 class="post-title">DEV LOG #1 Ready, Set, GO!</h1>
+          <div class="cf post-meta-text">
+            <div class="author-image" style="background-image: url(/apple-touch-icon.png)">
+              Blog Logo</div>
+            <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">Builderment
+            </h4>
+            on
+            <time datetime="2019-09-10 08:00">10 Sep 2019</time>
+            <!-- tagged <span class="post-tag-devlog"><a href="/tag/devlog">devlog</a></span> -->
+          </div>
+          <div style="text-align:center">
+            <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <section class="post-content">
+        <div class="post-reading">
+          <span class="post-reading-time"></span> read
+        </div>
+        <a name="topofpage"></a>
+        <p>Starting a new game is exciting, the ideas are flowing and the possibilities are endless. You have a great idea and ready to get to work. Soon you may find yourself facing a lot of questions that need to be answered. Maybe you’ve made a game or two before but some questions still remain. It can be overwhelming for anyone. In this post I’m going to walk you through some of the questions I had when starting Builderment and my thought process in finding the answers. The tldr of this is to make a decision and move forward!</p>
+
+<p><em>I’d also like to preface this with these questions are best answered after you have a game idea in mind. No sense in working out multithreading logic before you know if the game is turn based or real time.</em></p>
+
+<h2 id="target-platform-">Target Platform 📱</h2>
+<p>I’m a big fan of PC games and love the idea of mobile games but most fail to grab my attention for very long. That said, I think there is a big market for base building and automation games on mobile. Currently there are a handful available but most are ports from a desktop version. I think it shows, they often have uncomfortable UI or design elements that aren’t friendly to short gaming sessions. Mobile gaming is relatively still newish compared to PC and is exciting to work in. It also doesn’t hurt that I’m an iOS developer and this is the path of least resistance to get started with.</p>
+
+<h2 id="game-engine-">Game Engine 💪</h2>
+<p>I looked at a few different game engines when deciding what to use for Builderment. A couple key requirements I had was that it should be fast, easy to use, and capable of what I needed. Unity was the clear winner in the easy to use and capable category, followed closely by unreal engine. However for what I want to do with this game and researching a lot of performance and optimization blogs / videos it wasn’t obvious that either of these could deliver the efficiency I wanted. With the right optimizations they may or may not be able to get there, but it’s not a risk I want to take right now.</p>
+
+<p>Another thing to keep in mind is my productivity, I should be optimizing my time for developing the game and making it better every day, not fighting with a game engine that I probably only use 5% of the features. It would also be easy to spend multiple months trying out each engine and prototyping on them, but you have to move forward. So I decided on going native and writing the game in Swift for iOS.</p>
+
+<p>Swift is what I’m most familiar with but unfortunately locks this game to iOS (maybe mac too but that’s another topic). Not being on Android is significant but I will use this opportunity to focus on making the best possible experience for iPhone and iPad.</p>
+
+<h2 id="art-style---2d-vs-3d-">Art Style - 2D vs 3D 🎨</h2>
+<p>Early on I started with 2D for prototypes and wanted to stick with it. I thought to get the best performance 2D would be absolutely necessary. However when trying to decide on an art style I really liked something with a more cartoon fantasy 3D look (read Clash of Clans). It can deliver a more immersive experience with the right lighting and graphical effects. Only time will tell if the performance becomes a bottleneck, if it does I’ll revisit this decision then. But again I decided to pick one and move forward.</p>
+
+<h2 id="code-architecture-">Code Architecture 🏠</h2>
+<p>There are a lot of topics on the web covering game programming already so I won’t go into much detail right now but a great place to start if you’re interested is <a href="https://gameprogrammingpatterns.com/contents.html">gameprogrammingpatterns.com</a>.</p>
+
+<p>One of my primary requirements for development is to be data driven. Meaning changing the content in the game should be fast and easy without needing to update code. To allow that flexibility I started using a very pure entity component system. Quickly I ran into problems needing to write hacky work arounds just to get simple things to work. Mining stone with a drill entity and placing it on a belt entity became a huge multi component/systems mess with multiple components very tightly coupled together. Maybe I did something wrong but it wasn’t working out.</p>
+
+<p>After a week or two struggling with that I switched to a hybrid approach that is very loose with “structure”. Entities have duplicate behavior but makes them easier to work with. Systems do a lot more but can optimize behavior having more information available to them. I like to think of it as the “do what you want where you want to” approach. This is working out ok for me as a single developer, in a larger company the more pure ECS might be better.</p>
+
+<p>I watched a talk a while ago that might have been from Jonathan Blow, I can’t remember, but it was basically about forgetting everything you knew about programming and imagine back to what it was like when you were starting out. When you wanted to have some behavior in the game you did anything at all to make it work, it didn’t have to be “the right way”. I think this is good advice, to a point. You probably shouldn’t forget everything and should keep design principles in mind while coding. But it’s ok if the code doesn’t perfectly fit some design pattern. I’m kind of rambling here but lets bring it back to Builderment. The point is, it’s often better to pick a path and start heading down it rather than stand at the crossroads or even take a few steps and turn around.</p>
+
+<h2 id="follow-and-subscribe-">Follow and Subscribe 👍</h2>
+<p>This journey is just beginning. If you like what you read I’ll be posting more of it, hopefully weekly. Currently on twitter and instagram sharing images and videos from development. Reach out via email or come join discord!</p>
+
+<p>Twitter @<a href="https://twitter.com/builderment">builderment</a><br />
+Instagram @<a href="https://instagram.com/builderment">builderment</a><br />
+Discord <a href="https://discord.gg/VkH4Nq3">https://discord.gg/VkH4Nq3</a><br />
+Email contact ‘at’ builderment ‘dot’ com</p>
+
+      </section>
+      <footer class="post-footer">
+        <section class="share">
+          
+          
+          <a class="icon-twitter"
+            href="http://twitter.com/share?text=DEV+LOG+%231+Ready%2C+Set%2C+GO%21&amp;url=https://builderment.com/news/2019/09/10/devlog-1.html"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+            <i class="fa fa-twitter"></i><span class="hidden">twitter</span>
+          </a>
+          
+          
+        </section>
+      </footer>
+      <div class="bottom-teaser cf">
+        <div class="isLeft">
+          <h5 class="index-headline featured"><span>Written by</span></h5>
+          <section class="author">
+            <div class="author-image" style="background-image: url(/apple-touch-icon.png)">Blog
+              Logo</div>
+            <h4>Builderment</h4>
+            <p class="bio"></p>
+            <hr>
+            <p class="published">Published <time
+                datetime="2019-09-10 08:00">10 Sep 2019</time></p>
+          </section>
+        </div>
+        <!-- \{\{\/post\}\} -->
+        <div class="isRight">
+          <h5 class="index-headline featured"><span>published with <a href="http://jekyllrb.com">Jekyll</a></span></h5>
+          <footer class="site-footer">
+            <a class="subscribe" href="/feed.xml"> <span class="tooltip"> <i
+                  class="fa fa-rss"></i> Subscribe to RSS feed</span></a>
+          </footer>
+        </div>
+      </div>
+    </article>
+  </main>
+  <!-- <div class="bottom-closer">
+    <div class="background-closer-image" 
+      style="background-image: url(https://i.imgur.com/D6skL6Z.mp4)" >
+      Image
+    </div>
+    <div class="inner">
+      <h1 class="blog-title">Builderment</h1>
+      <h2 class="blog-description">A game about building and automation
+</h2>
+      <a href=/ class="btn">Back to Overview</a>
+    </div>
+  </div> -->
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src=" /assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src=" /assets/js/index.js"></script>
+<script type="text/javascript" src=" /assets/js/readingTime.min.js"></script>
+<script>
+  (function ($) {
+    "use strict";
+    $(document).ready(function () {
+
+      var $window = $(window),
+        $image = $('.post-image-image, .teaserimage-image');
+
+      $window.on('scroll', function () {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, ' + top / 3 + 'px, 0px)')
+          .css('opacity', 1 - Math.max(top / 700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+          && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+    });
+  }(jQuery));
+</script>
+</body>
+
+</html>

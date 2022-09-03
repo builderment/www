@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Builderment</title>
+    <description>A game about building and automation
+</description>
+    <link>https://builderment.com/</link>
+    <atom:link href="https://builderment.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 03 Sep 2022 14:44:23 -0400</pubDate>
+    <lastBuildDate>Sat, 03 Sep 2022 14:44:23 -0400</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Builderment is now available!</title>
+        <description>&lt;p&gt;Builderment brings the factory building and automation elements you love to iOS. Harvest resources, transport items on conveyor belts, scale up production, and customize your factory without limits. Now available for Free on the App Store.&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;
+&lt;a href=&quot;https://apps.apple.com/us/app/builderment/id1558592038?itsct=apps_box_badge&amp;amp;itscg=30200&quot; style=&quot;display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;&quot;&gt;&lt;img src=&quot;https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;amp;releaseDate=1623110400&amp;amp;h=f184c4bc4b92aea3d5f983d580b2b4c1&quot; alt=&quot;Download on the App Store&quot; style=&quot;border-radius: 13px; width: 250px; height: 83px;&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
+&lt;p&gt;Builderment is a factory building game at heart. It’s all about crafting and automation. You start by harvesting resources and building factories to craft new items. Use those crafted items to research advanced buildings and recipes to craft ever more complex items.&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;&lt;img style=&quot;width: 480px;&quot; src=&quot;https://i.imgur.com/opUZ8ZG.gif&quot; alt=&quot;A little factory in action&quot; /&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Build fully automated factories on a massive scale&lt;/li&gt;
+  &lt;li&gt;Use conveyor belts to transport items around your factory&lt;/li&gt;
+  &lt;li&gt;Research and unlock advanced technology to craft unique items&lt;/li&gt;
+  &lt;li&gt;Expand your factory to harvest every last resource node&lt;/li&gt;
+  &lt;li&gt;Customize your factory with rare decorative items&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.imgur.com/V2aFkWI.png&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/V2aFkWIm.png&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://i.imgur.com/I6rcpgn.png&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/I6rcpgnm.png&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://i.imgur.com/YzE86oL.png&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/YzE86oLm.png&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://i.imgur.com/4YtiLg6.jpg&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/4YtiLg6m.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://i.imgur.com/aVcswNq.jpg&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/aVcswNqm.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://i.imgur.com/vtRd6iP.png&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/vtRd6iPm.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;availability&quot;&gt;Availability&lt;/h2&gt;
+&lt;p&gt;Available for iPhone, iPad, and iPod Touch (iOS 12+).&lt;/p&gt;
+
+&lt;h2&gt;Follow and Subscribe 👍&lt;/h2&gt;
+
+&lt;p&gt;Seeing others enjoy the work and progress really motivates future development of the game.
+  If you're one of those people consider following on twitter or instagram, or join me in discord.&lt;/p&gt;
+
+&lt;p&gt;Twitter @&lt;a href=&quot;https://twitter.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Discord &lt;a href=&quot;https://discord.gg/VkH4Nq3&quot;&gt;https://discord.gg/VkH4Nq3&lt;/a&gt;&lt;br /&gt;
+Email contact ‘at’ builderment ‘dot’ com&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 08 Jun 2021 04:00:00 -0400</pubDate>
+        <link>https://builderment.com/news/2021/06/08/released.html</link>
+        <guid isPermaLink="true">https://builderment.com/news/2021/06/08/released.html</guid>
+        
+        <category>release</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>DEV LOG #12 Launch 🚀</title>
+        <description>&lt;p&gt;I’m excited to announce that Builderment is set to launch on &lt;strong&gt;June 8th&lt;/strong&gt; for iOS devices worldwide!&lt;/p&gt;
+
+&lt;h2 id=&quot;about&quot;&gt;About&lt;/h2&gt;
+&lt;p&gt;Builderment is a game about automation, crafting, and production lines. Your goal is to build a factory to craft increasingly complex technology and ultimately a teleporter to supply Earth with infinite resources.&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;&lt;img style=&quot;width: 480px;&quot; src=&quot;https://i.imgur.com/opUZ8ZG.gif&quot; alt=&quot;A little factory in action&quot; /&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Build factories on a massive scale&lt;/li&gt;
+  &lt;li&gt;Utilize conveyor belts to transport items between factories&lt;/li&gt;
+  &lt;li&gt;Craft dozens of unique items&lt;/li&gt;
+  &lt;li&gt;Research technology to build more advanced buildings&lt;/li&gt;
+  &lt;li&gt;Expand to harvest every resource on the map&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://i.imgur.com/V2aFkWI.png&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/V2aFkWIm.png&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://i.imgur.com/I6rcpgn.png&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/I6rcpgnm.png&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://i.imgur.com/YzE86oL.png&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/YzE86oLm.png&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://i.imgur.com/4YtiLg6.jpg&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/4YtiLg6m.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://i.imgur.com/aVcswNq.jpg&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/aVcswNqm.jpg&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;https://i.imgur.com/vtRd6iP.png&quot;&gt;&lt;img style=&quot;width: 180px;&quot; src=&quot;https://i.imgur.com/vtRd6iPm.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;details&quot;&gt;Details&lt;/h2&gt;
+&lt;p&gt;Available from the App Store on June 8th for iPhone, iPad, and iPod Touch (iOS 12+)&lt;/p&gt;
+
+&lt;h2&gt;Follow and Subscribe 👍&lt;/h2&gt;
+
+&lt;p&gt;Seeing others enjoy the work and progress really motivates future development of the game.
+  If you're one of those people consider following on twitter or instagram, or join me in discord.&lt;/p&gt;
+
+&lt;p&gt;Twitter @&lt;a href=&quot;https://twitter.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Discord &lt;a href=&quot;https://discord.gg/VkH4Nq3&quot;&gt;https://discord.gg/VkH4Nq3&lt;/a&gt;&lt;br /&gt;
+Email contact ‘at’ builderment ‘dot’ com&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Jun 2021 04:00:00 -0400</pubDate>
+        <link>https://builderment.com/news/2021/06/01/devlog-12.html</link>
+        <guid isPermaLink="true">https://builderment.com/news/2021/06/01/devlog-12.html</guid>
+        
+        <category>devlog</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>DEV LOG #11 Open Beta 🏭</title>
+        <description>&lt;p&gt;Wow, ok so Builderment is now in beta (early access for you steam gamers). What is beta you ask? Well this basically just means that I think the game is ready to be shared with more people. It’s still a work-in-progress and there is a lot more I’m planning to do with it. But you might see the occasional bug, crash, or rough edge.&lt;/p&gt;
+
+&lt;p&gt;If this type of game and level of completeness is your thing feel free to sign up below and get building.&lt;/p&gt;
+
+&lt;p&gt;To sign up simply tap the link below on your iOS device of choice.
+&lt;a href=&quot;https://testflight.apple.com/join/lPXLNgll&quot;&gt;https://testflight.apple.com/join/lPXLNgll&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Requirement:&lt;/strong&gt;&lt;br /&gt;
+iPhone, iPad, or iPod touch running iOS 11 or later&lt;/p&gt;
+
+&lt;h2&gt;Follow and Subscribe 👍&lt;/h2&gt;
+
+&lt;p&gt;Seeing others enjoy the work and progress really motivates future development of the game.
+  If you're one of those people consider following on twitter or instagram, or join me in discord.&lt;/p&gt;
+
+&lt;p&gt;Twitter @&lt;a href=&quot;https://twitter.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Discord &lt;a href=&quot;https://discord.gg/VkH4Nq3&quot;&gt;https://discord.gg/VkH4Nq3&lt;/a&gt;&lt;br /&gt;
+Email contact ‘at’ builderment ‘dot’ com&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 04 Apr 2021 04:00:00 -0400</pubDate>
+        <link>https://builderment.com/news/2021/04/04/devlog-11.html</link>
+        <guid isPermaLink="true">https://builderment.com/news/2021/04/04/devlog-11.html</guid>
+        
+        <category>devlog</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>DEV LOG #10 Building On Belts</title>
+        <description>&lt;p&gt;This week brings a small quality of life improvement to the game. When building factories you first needed to remove the belt and then place the factory on an empty tile.
+Feedback from a few alpha testers (thank you!) suggested being able to build over a belt and have the factory replace it automatically.&lt;/p&gt;
+
+&lt;p&gt;Before:&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;video style=&quot;width: 100%; height: 480px;&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; title=&quot;Have to manually remove the belt first&quot;&gt;
+    &lt;source src=&quot;https://i.imgur.com/bGklWuV.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support playing this Video
+&lt;/video&gt;
+&lt;figcaption&gt;Have to manually remove the belt first&lt;/figcaption&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+After:&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;video style=&quot;width: 100%; height: 480px;&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; title=&quot;Now the belt is automatically replaced&quot;&gt;
+    &lt;source src=&quot;https://i.imgur.com/WQ6roPY.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support playing this Video
+&lt;/video&gt;
+&lt;figcaption&gt;Now the belt is automatically replaced&lt;/figcaption&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Follow and Subscribe 👍&lt;/h2&gt;
+
+&lt;p&gt;Seeing others enjoy the work and progress really motivates future development of the game.
+  If you're one of those people consider following on twitter or instagram, or join me in discord.&lt;/p&gt;
+
+&lt;p&gt;Twitter @&lt;a href=&quot;https://twitter.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Discord &lt;a href=&quot;https://discord.gg/VkH4Nq3&quot;&gt;https://discord.gg/VkH4Nq3&lt;/a&gt;&lt;br /&gt;
+Email contact ‘at’ builderment ‘dot’ com&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 23 Aug 2020 04:00:00 -0400</pubDate>
+        <link>https://builderment.com/news/2020/08/23/devlog-10.html</link>
+        <guid isPermaLink="true">https://builderment.com/news/2020/08/23/devlog-10.html</guid>
+        
+        <category>devlog</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>DEV LOG #9 Still Building</title>
+        <description>&lt;p&gt;It has been over 8 months since the last dev log where I shared a very hopeful plan for the year. A lot has changed since then so please enjoy this brief update.&lt;/p&gt;
+
+&lt;p&gt;Factories in the game have been reworked to have multiple possible recipes. I don’t know if this was shared before but originally each factory could only produce one item. Making it easy to build and identify which factory was needed to craft an item. However this &lt;em&gt;really&lt;/em&gt; doesn’t scale well, if there are 30 items in the game (a low estimate of the final goal) that’s 30 unique factory designs. So now there are a few base factories and you select which item to craft after building them.&lt;/p&gt;
+
+&lt;p&gt;The rendering code is now using &lt;a href=&quot;https://developer.apple.com/metal/&quot;&gt;Metal&lt;/a&gt; directly. This took a while to learn and accomplish but having low level control of the graphics allows for better optimization opportunities.&lt;/p&gt;
+
+&lt;p&gt;The energy system / electricity has been removed from the game because it wasn’t that fun. It was a pretty simple concept, each factory required energy to work and you’d need to place down a generator nearby that would produce X energy for all nearby factories. There weren’t other constraints so this just became tedious and didn’t add any enjoyment to the game.&lt;/p&gt;
+
+&lt;p&gt;The concept of enemies have also been scrapped from the initial release plans because it would take too much time. However I do think they would add an interesting dynamic to gameplay and would be fun to add eventually.&lt;/p&gt;
+
+&lt;p&gt;I’ve also been working on a background story and finalizing the goal of the game. Not quite ready to share that yet but should be soon.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Follow and Subscribe 👍&lt;/h2&gt;
+
+&lt;p&gt;Seeing others enjoy the work and progress really motivates future development of the game.
+  If you're one of those people consider following on twitter or instagram, or join me in discord.&lt;/p&gt;
+
+&lt;p&gt;Twitter @&lt;a href=&quot;https://twitter.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Discord &lt;a href=&quot;https://discord.gg/VkH4Nq3&quot;&gt;https://discord.gg/VkH4Nq3&lt;/a&gt;&lt;br /&gt;
+Email contact ‘at’ builderment ‘dot’ com&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 13 Aug 2020 04:00:00 -0400</pubDate>
+        <link>https://builderment.com/news/2020/08/13/devlog-9.html</link>
+        <guid isPermaLink="true">https://builderment.com/news/2020/08/13/devlog-9.html</guid>
+        
+        <category>devlog</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>DEV LOG #8 Builderment in 2020</title>
+        <description>&lt;p&gt;Happy New Year!&lt;/p&gt;
+
+&lt;p&gt;It has been exactly one month since the last dev log. Honestly it has been difficult coming up with what I wanted to write about.
+The terrain generation and world building was my original idea for a topic and something I tried writing a couple of times. However it has been very difficult to build and not in a good state to share just yet. I will say, writing graphics shaders is quite exciting and more often than not leads to interesting visuals.&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;&lt;img style=&quot;width: 480px;&quot; src=&quot;https://i.imgur.com/ADSFtWn.png&quot; alt=&quot;Custom shader mishaps&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Since it’s the new year it seems like the perfect time to share my plans for Builderment in 2020. The following is a list of things I’d like to complete each quarter. There is undoubtedly a lot of other work not listed, so take these as the highlights.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q1:&lt;/strong&gt; Add electricity system, enemies, path finding, and working turrets.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q2:&lt;/strong&gt; Get a playable alpha version. Add more content and find a few brave souls to start testing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q3:&lt;/strong&gt; Add more late game content, possibly cargo ships 🤫. Trying not to have too much feature creep.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q4:&lt;/strong&gt; Tiddy up and polish. Translations, audio, marketing, etc.&lt;/p&gt;
+
+&lt;p&gt;Release sometime in 2021…&lt;/p&gt;
+
+&lt;p&gt;If you’d like to see anything specific or know more please feel free to reach out via one of the links below.&lt;/p&gt;
+
+&lt;h2 id=&quot;follow-and-subscribe-&quot;&gt;Follow and Subscribe 👍&lt;/h2&gt;
+&lt;p&gt;This journey is just beginning. If you like what you read I’ll be posting more of it, hopefully weekly. Currently on twitter and instagram sharing images and videos from development. Reach out via email or come join discord!&lt;/p&gt;
+
+&lt;p&gt;Twitter @&lt;a href=&quot;https://twitter.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Instagram @&lt;a href=&quot;https://instagram.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Discord &lt;a href=&quot;https://discord.gg/VkH4Nq3&quot;&gt;https://discord.gg/VkH4Nq3&lt;/a&gt;&lt;br /&gt;
+Email contact ‘at’ builderment ‘dot’ com&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 01 Jan 2020 03:00:00 -0500</pubDate>
+        <link>https://builderment.com/news/2020/01/01/devlog-8.html</link>
+        <guid isPermaLink="true">https://builderment.com/news/2020/01/01/devlog-8.html</guid>
+        
+        <category>devlog</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>DEV LOG #7 Weekly Update</title>
+        <description>&lt;h2 id=&quot;camera-cargo-lock&quot;&gt;Camera Cargo Lock&lt;/h2&gt;
+&lt;p&gt;Since the beginning I’ve wanted an effect that would follow an item as it moved along the belts. This week I made that happen! 🥳&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;video style=&quot;width: 100%; height: 480px;&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; title=&quot;Camera following items on belts&quot;&gt;
+    &lt;source src=&quot;https://i.imgur.com/mQ9N9kV.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support playing this Video
+&lt;/video&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It’s actually quite simple how it works. When you tap an item on a belt the camera will “attach” to that item and follow it until it goes into a building and is removed from the game. That “attach” behavior is just a function called every frame that re-positions the camera to where the item is.&lt;/p&gt;
+
+&lt;h2 id=&quot;improving-asset-automation&quot;&gt;Improving Asset Automation&lt;/h2&gt;
+&lt;p&gt;This week I also made a couple of improvements to the asset automation scripts in my &lt;a href=&quot;/news/2019/11/24/blender-workflow.html&quot;&gt;last post&lt;/a&gt;. Even with the very few models currently in game it was painfully obvious that running the scripts on every model each time wasn’t ideal. When working on a single model I wanted to export and convert only that one.&lt;/p&gt;
+
+&lt;p&gt;To support this I modified the script to support optional input arguments. So by passing the path(s) of assets to the script it will only convert those. If no arguments are passed in it will convert all assets like before, e.g. &lt;code style=&quot;white-space: nowrap;&quot;&gt;$ scripts/convert-game-assets.py assets/models/copper_ore.blend&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sys&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:]:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;convert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;convert_all_models&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;thumbnail-creation&quot;&gt;Thumbnail Creation&lt;/h2&gt;
+&lt;p&gt;While continuing work on the scripts I added the ability to render thumbnails of each model so they can be used in the UI.&lt;/p&gt;
+
+&lt;p&gt;It wasn’t easy to find anything online that did exactly what I wanted so had to figure this out by reading the API. Earlier examples from pre-2.8 didn’t always work since the API changed a bit. In case any readers are Blender Python API experts here’s what I did to get a simple render of the model. Please let me know if there is a better way :)&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add_light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lights&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'light'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'POINT'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;energy&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;light&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'light'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;location&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;location&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add_camera&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rotation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cameras&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Camera'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;camera&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Camera'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;camera&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;location&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;location&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;camera&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rotation_euler&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rotation&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;camera&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;camera&lt;/span&gt;
+
+
+&lt;span class=&quot;n&quot;&gt;add_light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;add_light&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;camera&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add_camera&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;location&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;6.7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;5.7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rotation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;1.117&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.785&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;camera&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;camera&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# reselect only exported objects and position the camera to fit
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;selected_objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select_set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exported_objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select_set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ops&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;view3d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;camera_to_view_selected&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Enable ambient occlusion
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eevee&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;use_gtao&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resolution_x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;512&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resolution_y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;512&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filepath&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'${}/{}.png'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;scene&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;film_transparent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ops&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write_still&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;As you can see some of them aren’t perfect, but for now that’ll do just fine.&lt;/p&gt;
+&lt;div style=&quot;text-align:center;&quot;&gt;&lt;img style=&quot;width: 480px;&quot; src=&quot;https://i.imgur.com/gqdAKSi.png&quot; alt=&quot;Automated asset thumbnails&quot; /&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;follow-and-subscribe-&quot;&gt;Follow and Subscribe 👍&lt;/h2&gt;
+&lt;p&gt;This journey is just beginning. If you like what you read I’ll be posting more of it, hopefully weekly. Currently on twitter and instagram sharing images and videos from development. Reach out via email or come join discord!&lt;/p&gt;
+
+&lt;p&gt;Twitter @&lt;a href=&quot;https://twitter.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Instagram @&lt;a href=&quot;https://instagram.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Discord &lt;a href=&quot;https://discord.gg/VkH4Nq3&quot;&gt;https://discord.gg/VkH4Nq3&lt;/a&gt;&lt;br /&gt;
+Email contact ‘at’ builderment ‘dot’ com&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 01 Dec 2019 03:00:00 -0500</pubDate>
+        <link>https://builderment.com/news/2019/12/01/devlog-7.html</link>
+        <guid isPermaLink="true">https://builderment.com/news/2019/12/01/devlog-7.html</guid>
+        
+        <category>devlog</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>DEV LOG #6 A Programmers Guide to Asset Automation</title>
+        <description>&lt;p&gt;Builderment is a game about building and automation, so it’s only natural that the development process is also automated. As a programmer my philosophy is to do as little work as possible. But that doesn’t mean to cut corners and deliver a worse product, instead it means use code to do much more work than I ever could manually.&lt;/p&gt;
+
+&lt;p&gt;My approach to creating game assets is similar; repeat myself as little as possible. Some Blender tools like the mirror &amp;amp; array modifiers help immensely when creating models. But I’m no where close to good enough to writing a guide on how to model in Blender. I do however have two small but incredibly useful tools that make development easier. First is the workflow I have for exporting all game assets to Xcode, and second is linking materials in Blender to easily change the visuals of all assets.&lt;/p&gt;
+
+&lt;p&gt;First let us export all the assets.&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;video style=&quot;width: 100%; height: 440px;&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; title=&quot;Batch convert Blender to SceneKit assets&quot;&gt;
+    &lt;source src=&quot;https://i.imgur.com/l7DuYy9.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support playing this Video
+&lt;/video&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;scripts-to-export-and-convert-game-assets&quot;&gt;Scripts to export and convert game assets&lt;/h2&gt;
+
+&lt;p&gt;Once I had more than a couple models in the game I wanted a way to easily re-export and convert them to usable SceneKit files. The process to do that was anything but straight forward or well documented 🙄. Hopefully this helps someone in the future who is in need of a similar setup.&lt;/p&gt;
+
+&lt;p&gt;The first step was to find a way to get blender to export objects from the command line. Luckily Blender has a very comprehensive &lt;a href=&quot;https://docs.blender.org/api/current/info_quickstart.html&quot;&gt;Python API&lt;/a&gt;. With that I was able to create this simple Python script that can export a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.dae&lt;/code&gt; file by running the command&lt;br /&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blender $FILE_TO_EXPORT -b -P scripts/export-dae.py&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;file-scriptsexport-daepy&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file: scripts/export-dae.py&lt;/code&gt;&lt;/h4&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/env python3
+&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;bpy&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# The export command is configured to only export selected objects.
+# Select all objects that are not hidden from the renderer.
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;visible_objects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select_set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hide_render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Create output file from the asset's file name
+# ex. assets/models/copper_ore.blend =&amp;gt; assets/exports/copper_ore.dae
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;basename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filepath&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;output_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splitext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;output_path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/assets/exports/{}.dae&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Export as collada (.dae)
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bpy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ops&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;collada_export&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filepath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                          &lt;span class=&quot;n&quot;&gt;check_existing&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                          &lt;span class=&quot;n&quot;&gt;filter_collada&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                          &lt;span class=&quot;n&quot;&gt;apply_modifiers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                          &lt;span class=&quot;n&quot;&gt;selected&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                          &lt;span class=&quot;n&quot;&gt;use_texture_copies&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;As I learn more about scripting in Blender I want to add more commands here to create a camera and lights to render an image for the icons/thumbnails in the game.&lt;/p&gt;
+
+&lt;p&gt;The second and final script calls that first script on each &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.blend&lt;/code&gt; file in my models folder and saves them to an exports folder. Then it converts each .dae file to a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.scn&lt;/code&gt; file using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scntool&lt;/code&gt; command built into Xcode. Lastly it copies the textures into the games directory incase anything changed (&lt;em&gt;note to self: I should first remove the existing textures from that folder&lt;/em&gt;).&lt;/p&gt;
+&lt;h4 id=&quot;file-scriptsconvert-game-assetspy&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file: scripts/convert-game-assets.py&lt;/code&gt;&lt;/h4&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#!/usr/bin/env python3
+&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;glob&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;subprocess&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# glob all .blend files and export them as .dae objects
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blender_files&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;glob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;glob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;assets/models/*.blend&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blender_files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;blender_export_cmd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;blender {} --factory-startup --background --python scripts/export-dae.py&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;subprocess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blender_export_cmd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Convert exported collada models to SceneKit .scn files
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;convertable_files&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;glob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;glob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;assets/exports/*.dae&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;convertable_files&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;asset_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;basename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;asset_name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;splitext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;asset_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;# scntool options list https://gist.github.com/matux/4a30c4b4b29d636fe6847b6a3234bc4f
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;convert_cmd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;xcrun scntool&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                   &lt;span class=&quot;s&quot;&gt;&quot;--convert {}&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
+                   &lt;span class=&quot;s&quot;&gt;&quot;--format scn&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                   &lt;span class=&quot;s&quot;&gt;&quot;--force-y-up&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+                   &lt;span class=&quot;s&quot;&gt;&quot;--output ios/GameAssets.scnassets/{}.scn&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;asset_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;rt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;subprocess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;convert_cmd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;returncode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# cleanup exported .dae file
+&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# Copy textures to scenekit assets texture directory
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;copy_textures_cmd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cp -R assets/textures/ ios/GameAssets.scnassets/textures/&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;subprocess&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;copy_textures_cmd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;shell&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;check&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;While these scripts are specific to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.dae&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.scn&lt;/code&gt; files I hope the concept is abstract enough that you could use in your own workflow.&lt;/p&gt;
+
+&lt;h2 id=&quot;linking-materials&quot;&gt;Linking Materials&lt;/h2&gt;
+&lt;p&gt;Working with a low poly style means I have materials/textures that can to be repeated in many of the assets. Truth be told it took me a while to find this solution but now that I did it’s incredibly useful. I created a &lt;strong&gt;Library.blend&lt;/strong&gt; file that contains all the reusable content such as materials or meshes that get linked into the individual asset files. Combined with the previous scripts it’s easy to change the material in one place and have all the game assets updated in seconds.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Reloading is useful if you changed something in the library blend-file and want to see those changes in your current blend-file without having to re-open it.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://docs.blender.org/manual/en/dev/files/linked_libraries/introduction.html#append-and-link&quot;&gt;Blender&lt;/a&gt; 🙌&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It looks a little something like this:&lt;/p&gt;
+&lt;div style=&quot;text-align:center;&quot;&gt;&lt;a href=&quot;https://i.imgur.com/ynRhYjw.jpg&quot; target=&quot;_blank&quot; alt=&quot;full size image&quot;&gt;&lt;img style=&quot;width: 480px;&quot; src=&quot;https://i.imgur.com/eXWLg1u.jpg&quot; alt=&quot;Blender material linking workflow&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;There are a lot of options for game dev in iOS including Unity, UE4, or Godot. If you’re interested in why Builderment is built in Swift and SceneKit have a quick read through my &lt;a href=&quot;/news/2019/09/10/devlog-1.html&quot;&gt;first dev log&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;follow-and-subscribe-&quot;&gt;Follow and Subscribe 👍&lt;/h2&gt;
+&lt;p&gt;This journey is just beginning. If you like what you read I’ll be posting more of it, hopefully weekly. Currently on twitter and instagram sharing images and videos from development. Reach out via email or come join discord!&lt;/p&gt;
+
+&lt;p&gt;Twitter @&lt;a href=&quot;https://twitter.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Instagram @&lt;a href=&quot;https://instagram.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Discord &lt;a href=&quot;https://discord.gg/VkH4Nq3&quot;&gt;https://discord.gg/VkH4Nq3&lt;/a&gt;&lt;br /&gt;
+Email contact ‘at’ builderment ‘dot’ com&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 24 Nov 2019 03:00:00 -0500</pubDate>
+        <link>https://builderment.com/news/2019/11/24/blender-workflow.html</link>
+        <guid isPermaLink="true">https://builderment.com/news/2019/11/24/blender-workflow.html</guid>
+        
+        <category>swift</category>
+        
+        <category>blender</category>
+        
+        <category>devops</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>DEV LOG #5 Transport Belts</title>
+        <description>&lt;p&gt;One of the main parts of Builderment is being able to move cargo/items around the world via transport belts. On the surface this might look easy or straightforward but underneath on a technical level it’s anything but. In this dev log I’m going to share some of those challenges and how Builderment attempts to solve them.&lt;/p&gt;
+
+&lt;video style=&quot;width: 100%; height: 480px;&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; title=&quot;Cargo moving along transport belts&quot;&gt;
+    &lt;source src=&quot;https://i.imgur.com/Ea0TqD3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support playing this Video
+&lt;/video&gt;
+
+&lt;h2 id=&quot;moving-cargo&quot;&gt;Moving Cargo&lt;/h2&gt;
+
+&lt;p&gt;Let’s start simple, how does cargo move from one end of a single belt tile to the other? Each cargo is an entity with a world position and distance along the current segment. Another system creates a list of points in the world that the cargo will follow, in this case we only need 2 points, the start and end since it’s a straight path. During the game update loop the path segments update the position of each cargo by adding speed to the distance and recalculating the position.&lt;/p&gt;
+&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// kCargoBaseSpeed = distance per second&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// kCargoSpacing = minimum spacing between items&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;beltDistance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;belt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;calculateMaxDistance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cargo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemsInSegment&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cargo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cargo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kCargoBaseSpeed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;beltDistance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;beltDistance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;beltDistance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;kCargoSpacing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cargo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;position&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;at&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cargo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;distance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;What’s nice about this system is the path segment is separate from the actual belt tiles. So with some graph traversal we can create a few segments for all of the belts. This significantly increased performance for large numbers of belts.&lt;/p&gt;
+
+&lt;h2 id=&quot;merging-cargo&quot;&gt;Merging Cargo&lt;/h2&gt;
+
+&lt;p&gt;Getting cargo to merge onto a belt was almost trivial. Each segment has a reference to the next segment and when cargo reaches the end of the segment it’s transferred to the next one if there is enough spacing. However this check is only done when cargo is at the absolute end of a segment so as you see there is some overlap before they get transferred to the next belt.&lt;/p&gt;
+&lt;video style=&quot;width: 100%; height: 480px;&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; title=&quot;Merging cargo from multiple belts onto one&quot;&gt;
+    &lt;source src=&quot;https://i.imgur.com/4EPjHuG.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support playing this Video
+&lt;/video&gt;
+&lt;p&gt;I have not implemented a solution for this yet but the idea is to check for spacing when the cargo is close to the end and see what is on the next belt. And also the other merging belts since they might have cargo close to the end.&lt;/p&gt;
+
+&lt;h2 id=&quot;subterranean-cargo&quot;&gt;Subterranean Cargo&lt;/h2&gt;
+
+&lt;p&gt;Underground belts is really cool to see working. For each belt that enters an underground tile a separate path segment is created to the exit tile, if within N tiles. I added a flag to the segments that indicates if cargo should be hidden or not.
+Since the path segments are separate from the belt tiles this worked perfectly&lt;/p&gt;
+&lt;video style=&quot;width: 100%; height: 480px;&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; title=&quot;Cargo moving underground through a lake&quot;&gt;
+    &lt;source src=&quot;https://i.imgur.com/CDGT3VP.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support playing this Video
+&lt;/video&gt;
+
+&lt;p&gt;The most difficult part of all this is creating the path segments from all the belt tiles and factories. Adding explicit input and output tiles to the buildings really helps though.&lt;/p&gt;
+
+&lt;h2 id=&quot;follow-and-subscribe-&quot;&gt;Follow and Subscribe 👍&lt;/h2&gt;
+&lt;p&gt;This journey is just beginning. If you like what you read I’ll be posting more of it, hopefully weekly. Currently on twitter and instagram sharing images and videos from development. Reach out via email or come join discord!&lt;/p&gt;
+
+&lt;p&gt;Twitter @&lt;a href=&quot;https://twitter.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Instagram @&lt;a href=&quot;https://instagram.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Discord &lt;a href=&quot;https://discord.gg/VkH4Nq3&quot;&gt;https://discord.gg/VkH4Nq3&lt;/a&gt;&lt;br /&gt;
+Email contact ‘at’ builderment ‘dot’ com&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Nov 2019 03:00:00 -0500</pubDate>
+        <link>https://builderment.com/news/2019/11/10/devlog-5.html</link>
+        <guid isPermaLink="true">https://builderment.com/news/2019/11/10/devlog-5.html</guid>
+        
+        <category>devlog</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>DEV LOG #4 Bigger and Better Buildings</title>
+        <description>&lt;div style=&quot;text-align:center&quot;&gt;&lt;img style=&quot;width: 480px;&quot; src=&quot;https://i.imgur.com/qtVOp4s.jpg&quot; alt=&quot;Models are prototypes and not final&quot; /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+I realized a few weeks ago that the game wouldn’t be very exciting with only 1x1 buildings. Not only would the logistical problem solving be limited but visually impaired don’t think it would be all that appealing. With multiple sized buildings there can be much more variety in designs.&lt;/p&gt;
+
+&lt;p&gt;When everything is a 1x1 tile things are so much easier, collision detection is just a coordinate lookup in a dictionary/hash map, rotating is around the same point and doesn’t change the bounding box, and connecting belts could use the position of the building offset by 1.&lt;/p&gt;
+
+&lt;p&gt;The first thing I decided to tackle was item input and output on belts. With larger budings I thought it would be helpful to have specified positions that belts could connect to. These are independent of the actual building size and model so if there was ever a building with teleportation I could do something like this.&lt;/p&gt;
+
+&lt;video style=&quot;width: 100%; height: 480px;&quot; muted=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; playsinline=&quot;&quot; title=&quot;Building inputs &amp;amp; outputs can go anywhere&quot;&gt;
+    &lt;source src=&quot;https://i.imgur.com/3tegBAi.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+    Your browser does not support playing this Video
+&lt;/video&gt;
+&lt;p&gt;&lt;br /&gt;
+This required me to rewrite the belt building logic that moves items. Before it was simply looking for a building adjacent to the belt and trying to either unload an item or take an item out of the building. But I hope to do a longer blog on belt logic sometime soon.&lt;/p&gt;
+
+&lt;p&gt;Secondly collision detection had to be reworked so that all the buildings bounding boxes were checked when placing or tapping on something. This isn’t optimized yet and eventually could be very slow but since this collision detection doesn’t happen every frame (only on user interaction) I’m ok with it for now.&lt;/p&gt;
+
+&lt;p&gt;Rotating buildings on a grid doesn’t feel natural to me. A 1x1 rotates around a center point (0.5, 0.5) and the bounding box doesn’t change. However with a 2x1 not only does the bounding box not flip flop width and height but the piviot point can’t be (1, 0.5) otherwise it wouldn’t align to the tiles. To solve this I kept the pivot point at (0.5, 0.5) which works when a building isn’t square. For those it can feel out of place not having the pivot be centered since a square would no longer need to change it’s bounding box when rotating. So for those cases it moves the pivot point to the center. There’s more work that can be done to try and make the pivot closer to the center for large buildings so it doesn’t spin around on a corner.&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center;&quot;&gt;&lt;img style=&quot;width: 480px;&quot; src=&quot;https://i.imgur.com/0sK2IWI.jpg&quot; alt=&quot;Buildings with input &amp;amp; output arrows&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;At this point I want to start adding more content and spend time making 3D models that look good. I don’t have much experience with that so hopefully they don’t turn out garbage. Although there could be a garbage factory for recycling trash 😂.&lt;/p&gt;
+
+&lt;h2 id=&quot;follow-and-subscribe-&quot;&gt;Follow and Subscribe 👍&lt;/h2&gt;
+&lt;p&gt;This journey is just beginning. If you like what you read I’ll be posting more of it, hopefully weekly. Currently on twitter and instagram sharing images and videos from development. Reach out via email or come join discord!&lt;/p&gt;
+
+&lt;p&gt;Twitter @&lt;a href=&quot;https://twitter.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Instagram @&lt;a href=&quot;https://instagram.com/builderment&quot;&gt;builderment&lt;/a&gt;&lt;br /&gt;
+Discord &lt;a href=&quot;https://discord.gg/VkH4Nq3&quot;&gt;https://discord.gg/VkH4Nq3&lt;/a&gt;&lt;br /&gt;
+Email contact ‘at’ builderment ‘dot’ com&lt;/p&gt;
+</description>
+        <pubDate>Sun, 13 Oct 2019 04:00:00 -0400</pubDate>
+        <link>https://builderment.com/news/2019/10/13/devlog-4.html</link>
+        <guid isPermaLink="true">https://builderment.com/news/2019/10/13/devlog-4.html</guid>
+        
+        <category>devlog</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "9W3GKJ76MC.com.builderment.builderment"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true
+          },
+          {
+            "/": "/blueprint/*"
+          }
+        ]
+      }
+    ]
+  }
+}

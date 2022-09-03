@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>About</title>
+  <meta name="description" content="A game about building and automation
+" />
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@builderment" />
+    <meta name="twitter:title" content="About" />
+    <meta name="twitter:image" content="https://builderment.com/apple-touch-icon.png" />
+    
+    <meta name="twitter:description" content="A game about building and automation" />
+    
+  
+  
+  <meta property="og:site_name" content="Builderment" />
+  <meta property="og:title" content="About"/>
+  
+  <meta property="og:description" content="A game about building and automation" />
+  
+  <meta property="og:image" content="https://builderment.com/apple-touch-icon.png" />
+  <meta property="og:url" content="https://builderment.com/about/" >
+  <meta property="og:type" content="blog" />
+  
+
+  <meta name="apple-itunes-app" content="app-id=1558592038">
+
+  <link rel="canonical" href="https://builderment.com/about/"/>
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="/css/print.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+
+<body itemscope itemtype="http://schema.org/Article">
+  <!-- header start -->
+
+
+  <a href="https://builderment.com" class="logo-readium"><span class="logo" style="background-image: url(/apple-touch-icon.png)"></span></a>
+
+<!-- header end -->
+
+  <main class="content" role="main">
+    <article class="post">
+      
+      <div class="noarticleimage">
+        <div class="post-meta">
+          <h1 class="post-title">About</h1>
+          <div class="cf post-meta-text">
+            <div class="author-image" style="background-image: url()">Blog Logo</div>
+            <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            </h4>
+          </div>
+        </div>
+      </div>
+      
+      <section class="post-content">
+        <a name="topofpage"></a>
+        <h2 id="what-is-builderment">What is Builderment?</h2>
+<p>Builderment is a factory building game at heart. It’s all about crafting and automation. You start by harvesting resources and crafting items in factories. Use those crafted items to research new technology and recipes to craft ever more complex items.</p>
+
+<p>Earth has run out of resources… You have been sent to a distant planet to extract its infinite resources and craft items to send back to Earth. You’ll need to establish a base on this planet to build factories and production lines to automate the assembly of items.</p>
+
+<h3 id="features">Features</h3>
+<ul>
+  <li>Build factories on a massive scale</li>
+  <li>Use conveyor belts to transport items between factories</li>
+  <li>Craft dozens of unique items</li>
+  <li>Research technology to build more advanced buildings</li>
+  <li>Expand to harvest every resource on the map</li>
+</ul>
+
+<p><br />
+Twitter @<a href="https://twitter.com/builderment">builderment</a><br />
+Instagram @<a href="https://instagram.com/builderment">builderment</a></p>
+
+      </section>
+    </article>
+  </main>
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src=" /assets/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src=" /assets/js/index.js"></script>
+<script type="text/javascript" src=" /assets/js/readingTime.min.js"></script>
+<script>
+  (function ($) {
+    "use strict";
+    $(document).ready(function () {
+
+      var $window = $(window),
+        $image = $('.post-image-image, .teaserimage-image');
+
+      $window.on('scroll', function () {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, ' + top / 3 + 'px, 0px)')
+          .css('opacity', 1 - Math.max(top / 700, 0));
+      });
+      $window.trigger('scroll');
+
+      var height = $('.article-image').height();
+      $('.post-content').css('padding-top', height + 'px');
+
+      $('a[href*=#]:not([href=#])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+          && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html,body').animate({ scrollTop: target.offset().top }, 500);
+            return false;
+          }
+        }
+      });
+
+    });
+  }(jQuery));
+</script>
+</body>
+
+</html>
